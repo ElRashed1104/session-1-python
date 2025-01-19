@@ -1,0 +1,17 @@
+# define the itams 
+item1price = 12 
+item2price = 13 
+item3price = 23
+totalprice = item1price+item2price+item3price
+
+item1badget = 14 
+item2badget = 15 
+item3badget = 24
+
+totalbafget = item1badget+item2badget+item3badget
+print ("total price is = ")
+print( totalprice )
+print("total badget is = ")
+print( totalbafget)
+print ("is price is smaller than badget ")
+print(totalprice < totalbafget)
